@@ -1,0 +1,141 @@
+body{
+	margin:0;
+}
+
+header {
+	width: auto;
+	display: flex;
+	background-color: #086788; 
+ 	height: 100px;
+}
+
+.Cuarentena {
+	font-size: 35px;
+	color: white;
+	margin-left: 15%;
+	
+}
+
+.image1 {
+	width: 120px;
+	height: 120px;
+	margin-left: 10%;
+
+}
+
+li{
+	list-style:none;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+.instruction {
+	font-size: 20px;
+	padding-top: 10px;
+	margin-left: 20px;
+
+}
+
+.instruction2 {
+	font-size: 25px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	background: #295760;
+	border: 2px solid #011638;
+}
+
+.instruction3 {
+	font-size: 25px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	background: #295760;
+	border: 2px solid #011638;
+}
+
+p{
+	font-size: 30px;
+	color: red;
+}
+
+.title2 {
+	margin: auto;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+} 
+
+h1, h2, h3{
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1, h2 { 
+	color: #086788;
+}
+h3 { 
+	color: darkblue ; 
+	margin: auto;
+}
+
+h1 {
+	box-sizing: 20px;
+	margin-bottom: 30px;
+	color: blue;
+  	background-color: orange;
+ 	border: 5px solid darkblue;
+}
+
+.bluebutton {
+	color: white;
+	background-color: darkblue;
+	border-top: 20px;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	display: inline;
+}
+
+.beisbutton1 {
+	color: black;
+	background-color: #ECFEAA;
+	all padding: 10px; 
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	width: 180px;
+    height: 30px;
+    font-size: 15px;
+    font: center;
+    font-family: serif;
+}
+
+.beisbutton2 {
+	color: black;
+	background-color: #ECFEAA;
+	all padding: 10px; 
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	width: 400px;
+    height: 200px;
+    font-size: 20px;
+    font: center;
+}
+
+
+
+
+.hide {
+	display: none;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:1024px) and (min-width:640px) {
+  reglas CSS 
+  .display: none; 
+
+}
