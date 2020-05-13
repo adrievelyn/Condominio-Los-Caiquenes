@@ -127,7 +127,12 @@ h1 {
 }
 
 
-
+footer {
+	width: auto;
+	display: flex;
+	background-color: #086788; 
+ 	height: 100px;
+}
 
 .hide {
 	display: none;
@@ -139,3 +144,4 @@ h1 {
   .display: none; 
 
 }
+
