@@ -129,9 +129,10 @@ h1 {
 
 footer {
 	width: auto;
-	display: flex;
+	text-align: center;
 	background-color: #086788; 
- 	height: 100px;
+ 	height: 50px;
+ 	padding-top: 20px;
 }
 
 .hide {
